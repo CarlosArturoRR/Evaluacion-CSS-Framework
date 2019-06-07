@@ -1,0 +1,126 @@
+.encabezado_verde{
+  background-color: green !important;
+  width: 100%;
+  text-align: center;
+  color: red;
+}
+
+
+.blanco{
+  color: white;
+  text-align: right;
+  background-color: green !important;
+}
+
+.columna_nula{
+  height: 100%;
+  width: 100%;
+  background: white !important;
+
+}
+
+.buscar{
+  background: black;
+  color:white;
+}
+
+.buscar_input{
+  margin: 3% 1% 1% 1%;
+  width: 80%;
+}
+
+.prueba{
+  background: yellow;
+}
+
+.principal{
+  border:1px solid black;
+}
+
+.menu_1{
+  background: black;
+  color:white !important;
+  font: 30px Verdana, sans-serif;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+.opciones{
+  color:  green ;
+}
+
+.opciones1{
+  color:  green ;
+}
+
+.opciones1:hover{
+  color:red;
+}
+
+.opciones:hover{
+  color:white;
+}
+
+.img_izq{
+  width:30%;
+  margin-left: 2%;
+  background: black;
+  height: 30%;
+}
+
+.Titulo_historial{
+  margin-top: 20%;
+}
+
+.fotos_comida{
+  background: black;
+}
+
+.fotos{
+  margin-top: 5%;
+}
+
+.historial{
+  list-style:none;
+}
+
+.centrar{
+  text-align: center;
+}
+
+.justificar{
+  text-align: justify;
+  margin: 2% 5% 2% 5%;
+}
+
+.ancho{
+  width:100%;
+}
+
+.ajuste{
+  display:inline;
+  padding-left: 3%;
+}
+
+.ajuste2{
+  display:inline;
+  padding-top: 2% 0 2% 0;
+}
+
+.tamano_letra{
+    font-size: 20px;
+}
+
+.blanco_comentario{
+  background: white;
+}
+
+.imagenes_principales{
+  padding: 0 3% 0 3%;
+}
+
+.respuestas_blog{
+  border: 1px solid black;
+  margin: 4% 1% 4% 1%;
+  height: 3%;
+}

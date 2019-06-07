@@ -1,0 +1,72 @@
+
+
+.encabezado{
+  background-color: black !important;
+}
+
+.logo_musica{
+  width:80%;
+  padding-left: .5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.redes_sociales_img{
+  width:30%;
+}
+
+.redes_sociales{
+  margin-top: 8%;
+}
+
+.opciones{
+  color: white;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: blue;
+}
+
+.elemento_menu{
+  border: 1px solid white;
+  background-color: blue;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.opciones:hover{
+  background-color: white;
+  border: 1px solid black;
+  color:black;
+}
+
+
+.primer_blog{
+  border: 2px solid black;
+}
+
+.buscar{
+  font: 50px Verdana, sans-serif;
+}
+
+.buscar_input{
+  width: 80%;
+  display:inline;
+}
+
+.respuestas_blog{
+  margin: 4% 1% 4% 1%;
+  height: 3%;
+}
+
+.foto_metallica{
+  margin:50% 0 50% 0;
+}
+
+@media (max-width:767px) {
+  .ocultar{
+    display: none !important;
+  }
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos_personalizados.css">
+    <title>Manejo de tablas y contenido multimedia</title>
+  </head>
+
+  <body background=img/fondo.jpg>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col l12">
+
+          <nav class="nav-extended blue lighten-1 white-text">
+            <div class="nav-wrapper">
+              <ul class="right">
+                <li class="active"><a href="#"><i class="material-icons left">home</i>Inicio</a> </li>
+                <li><a href="#"><i class="material-icons left">pin_drop</i>Estuve en...</a> </li>
+                <li><a href="#"><i class="material-icons left">star</i>Mejores viajes</a> </li>
+                <li><a href="#"><i class="material-icons left">chat_bubble</i>Recomendaciones</a> </li>
+              </ul>
+            </div>
+            <div class="nav-content blue lighten-1 white-text container">
+              <img class="logo-img" src="img/barco.jpg" alt="" width="25%">
+              <h4 class="main-title">Creando mi propio camino</h4>
+            </div>
+          </nav>
+
+          <div class="row">
+            <div class="col l1">
+
+              <ul class="">
+
+                <li class="margen_redes"><a href="#"><img src="img/facebook.png" alt="facebook" title="facebook" width="100%" height="100%" class="responsive-img borde_redondeado"></a> </li>
+                <li class="margen_redes"><a href="#"><img src="img/google.png" alt="google" title="google" width="100%" height="100%" class="responsive-img borde_redondeado"></a> </li>
+                <li class="margen_redes"><a href="#"><img src="img/twitter.png" alt="twitter" title="twitter" width="100%" height="100%" class="responsive-img borde_redondeado"></a> </li>
+                <li class="margen_redes"><a href="#"><img src="img/instagram.jpg" alt="instagram" title="instagram" width="100%" height="100%" class="responsive-img borde_redondeado"></a> </li>
+                <li class="margen_redes"><a href="#"><img src="img/linkedin.png" alt="linkedin" title="linkedin" width="100%" height="100%" class="responsive-img borde_redondeado"></a> </li>
+
+              </ul>
+
+
+            </div>
+
+            <div class="col l4">
+              <img src="img/imagenizq-1.jpg" alt="facebook" title="facebook" width="100%" height="100%" class="responsive-img borde_redondeado margen_superior_izquierdo">
+              <img src="img/imagenizq-2.jpg" alt="facebook" title="facebook" width="100%" height="100%" class="responsive-img borde_redondeado margenes_izq">
+            </div>
+            <div class="col l3">
+              <img src="img/central.jpg" alt="facebook" title="facebook" width="100%" height="100%" class="responsive-img borde_redondeado margenes_central">
+            </div>
+            <div class="col l4">
+              <img src="img/imagender-1.jpg" alt="facebook" title="facebook" width="100%" height="100%" class="responsive-img borde_redondeado margen_der">
+              <img src="img/imagender-2.jpg" alt="facebook" title="facebook" width="100%" height="100%" class="responsive-img borde_redondeado margen_abajo">
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col l8 con_border">
+
+              <h4 class="" href="#">
+                Mis ultimas vacaciones
+                <div class="chip">
+                  <i class="material-icons">event</i>15/12/2018
+                </div>
+                <div class="chip">
+                  <i class="material-icons">location_on</i>Cancun
+                </div>
+              </h4>
+
+              <p class="flow-text justificado">
+                <img src="img/cancun.jpg" alt="facebook" title="facebook" width="40%" height="40%" class="responsive-img borde_redondeado margen_der img-float">
+                  Cancún es un destino que ofrece muchas opciones para tus vacaciones. La variedad de servicios, actividades y lugares es muy amplia y puede ser difícil encontrar las que mejor se ajusten a tus necesidades. Tours familiares, en pareja, en el mar, laguna, en la selva, zonas arqueológicas, todo terreno... Cualquier cosa la encuentras aquí. </br>
+                  Cancún es un destino que ofrece muchas opciones para tus vacaciones. La variedad de servicios, actividades y lugares es muy amplia y puede ser difícil encontrar las que mejor se ajusten a tus necesidades. Tours familiares, en pareja, en el mar, laguna, en la selva, zonas arqueológicas, todo terreno... Cualquier cosa la encuentras aquí.
+              </p>
+              <h4>
+                Deje un comentario
+              </h4>
+
+              <div class="row">
+                <div class="input-field col l6">
+                  <i class="material-icons prefix">perm_identity</i>
+                  <input id="nombre" type="text" name="" value="" placeholder="Nombre" class="valildate">
+                </div>
+
+                <div class="input-field col l6">
+                  <i class="material-icons prefix">email</i>
+                  <input id="email" type="text" data-success="Correcto" data-error="Debe completar este campo" placeholder="Email" class="valildate">
+
+                </div>
+              </div>
+
+              <div class="input-field">
+                <i class="material-icons prefix">chat</i>
+                <textarea id="texto" placeholder="comentario" class="materialize-textarea"></textarea>
+              </div>
+
+              <div class="row">
+                <div class="col l12">
+                  <a class="btn btn-large teal waves-effect alinear_derecha" href="#">Enviar</a>
+                </div>
+              </div>
+
+            </div>
+            <div class="col l4 con_border">
+
+              <div class="row">
+                <img src="img/homero.jpg" alt="Foto" title="Foto del Perfil" width="40%" height="40%" class="responsive-img circle imagen_homero">
+              </div>
+
+              <div class="row">
+                <h3 class="centrado"><strong>Perfil del Autor</strong> </h3>
+                <p class="justificado flow-text">
+                  Homer J. Simpson (en Hispanoamérica Homero J. Simpson) es el personaje principal de la serie animada de televisión Los Simpson.
+
+                  La voz original de Homer en inglés es de Dan Castellaneta. En España fue doblado hasta la undécima temporada por el fallecido Carlos Revilla, a quien sustituye Carlos Ysbert. En Hispanoamérica, hasta la decimoquinta temporada (Incluida), estaba doblado por Humberto Vélez, reemplazado desde la temporada siguiente por Victor Manuel Espinoza, conocido también como Otto Balbuena.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
